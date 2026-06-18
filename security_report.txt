@@ -1,0 +1,81 @@
+
+==================================================
+        NETWORK SECURITY ANALYSIS REPORT
+==================================================
+
+Generated On:
+2026-06-12 01:22:57.828861
+
+--------------------------------------------------
+TRAFFIC SUMMARY
+--------------------------------------------------
+
+Total Packets Captured : 49
+
+Total Traffic Volume   : 20494 bytes
+
+Risk Level             : LOW
+
+--------------------------------------------------
+PROTOCOL DISTRIBUTION
+--------------------------------------------------
+
+Protocol
+TCP        48
+Unknown     1
+Name: count, dtype: int64
+
+--------------------------------------------------
+TOP SOURCE IP ADDRESSES
+--------------------------------------------------
+
+Source IP
+192.168.31.98    24
+51.105.71.136    18
+140.82.112.21     4
+20.207.73.85      2
+192.168.31.1      1
+Name: count, dtype: int64
+
+--------------------------------------------------
+TOP DESTINATION IP ADDRESSES
+--------------------------------------------------
+
+Destination IP
+192.168.31.98    24
+51.105.71.136    17
+140.82.112.21     4
+20.207.73.85      3
+224.0.0.1         1
+Name: count, dtype: int64
+
+--------------------------------------------------
+DNS ACTIVITY
+--------------------------------------------------
+
+201526-ipv4mte.gr.global.aa-rt.sharepoint.com.
+201526-ipv4fdsmte.gr.global.aa-rt.sharepoint.com.
+
+--------------------------------------------------
+SECURITY OBSERVATIONS
+--------------------------------------------------
+
+1. Network traffic was successfully captured.
+2. Traffic patterns were analyzed.
+3. DNS activity was monitored.
+4. Top communicating hosts were identified.
+5. Protocol usage statistics were generated.
+
+--------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------
+
+- Continue monitoring network activity.
+- Investigate unknown external IPs.
+- Monitor suspicious ports.
+- Review DNS requests periodically.
+- Maintain updated security controls.
+
+==================================================
+                 END OF REPORT
+==================================================
